@@ -1,23 +1,21 @@
 ![General Assembly Logo](http://i.imgur.com/ke8USTq.png)
 
-# Assignment Name (Ruby String Lab)
+# Assessment: Rails Routes
 
 ## Objectives
 
-By the end of this, students should be able to:
+In this assessment, students are asked to demonstrate knowledge of:
 
-- Objective 1
-- Objective 2
-- Objective 3
+- Creating resourceful routes that map to controller actions
 
 ## Instructions
 
-You *must* run:
+Fork and clone this repo. Then run the following commands prior to starting to code:
 
-- `rake db:create`
-- `rake db:migrate`
-- `rake db:test:prepare`
+- `cd wdi_2_assessment_rails_routes`
+- `rake db:create db:migrate db:test:prepare`
 
+Run your tests with `rspec spec`
 
 Include explict step-by-step instructions about the goals of the assignment, and how to run the code.
 
