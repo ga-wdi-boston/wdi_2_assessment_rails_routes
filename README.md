@@ -15,30 +15,10 @@ Fork and clone this repo. Then run the following commands prior to starting to c
 - `cd wdi_2_assessment_rails_routes`
 - `rake db:create db:migrate db:test:prepare`
 
-Run your tests with `rspec spec`
+Run your tests with `rspec spec`. Write code to make them pass. In this exercise, you *only* need to write code in `config/routes.rb`.
 
-Include explict step-by-step instructions about the goals of the assignment, and how to run the code.
-
-Make sure to wrap section of code in appropriate markdown like `ls -al`, and denote the language as below for longer sections:
-
-```ruby
-x = 2
-y = 3
-puts x + y
-```
-
-## Bonus (Optional Section)
-
-If you're looking for extra challenge or practice once you've completed the above, try to...
-
-## Notes
-
-Gotcha's and extra information
+Make a git commit, push your code to Github, and make a Pull Request to turn in your work.
 
 ## Additional Resources
 
-List additional related resources such as videos, blog posts and official documentation.
-
-- Item 1
-- Item 2
-- Item 3
+- [RailsGuide: Routing](http://guides.rubyonrails.org/routing.html)
