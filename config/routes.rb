@@ -7,6 +7,12 @@ Rails.application.routes.draw do
   get 'drums/:id/edit', to: 'drums#edit'
   put 'drums/:id', to: 'drums#update'
 
+  #And this works for all drums resources, so it might make more than you need
+  #resources :drums
+
   get 'guitars', to: 'guitars#index'
   get 'guitars/:id', to: 'guitars#show'
+  #And this works for just guitars index & show
+  #resources :guitars, only: [:index, :show]
+
 end
