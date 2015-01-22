@@ -8,9 +8,6 @@ Rails.application.routes.draw do
   delete '/drums/:id', to: 'drums#destroy'
   get '/drums/:id/edit', to: 'drums#edit'
   put '/drums/:id', to: 'drums#update'
-  # put '/drums/:id' to: 'drums#update'
-
-
 
   # Drums
 
