@@ -13,8 +13,7 @@ In this assessment, students are asked to demonstrate knowledge of:
 Fork and clone this repo. Then run the following commands prior to starting to code:
 
 - `cd wdi_2_assessment_rails_routes`
-- `bundle install`
-- `rake db:create db:migrate db:test:prepare`
+- `bundle install && rake db:create db:migrate db:test:prepare`
 
 Run your tests with `rspec spec`. Write code to make them pass. In this exercise, you *only* need to write code in `config/routes.rb`.
 
@@ -22,4 +21,4 @@ Make a git commit, push your code to Github, and make a Pull Request to turn in 
 
 ## Additional Resources
 
-- [RailsGuide: Routing](http://guides.rubyonrails.org/routing.html)
+- [RailsGuide: Routing](http://guides.rubyonrails.org/routing.html) **This will be very helpful**
